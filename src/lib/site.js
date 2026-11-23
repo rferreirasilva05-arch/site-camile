@@ -35,6 +35,6 @@ export const images = {
   hero: "https://media.base44.com/images/public/6afd07e55a9eef5e1a2c971b/7a4aa663d_generated_5a380884.png",
   online: "https://media.base44.com/images/public/6afd07e55a9eef5e1a2c971b/b57d1aab1_generated_9cb806bd.png",
   office: "https://media.base44.com/images/public/6afd07e55a9eef5e1a2c971b/72bcc5d7b_generated_e631dbb9.png",
-  portrait:
-    "https://media.base44.com/images/public/user_6a765b68f74c4caa8331f5fb/2d56b5478_WhatsAppImage2026-11-17at212915.jpeg",
+  // Foto guardada no próprio projeto (pasta public/img).
+  portrait: "/img/camile-silva.jpg",
 };

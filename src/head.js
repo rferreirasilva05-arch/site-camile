@@ -6,12 +6,15 @@ export const pageTitle = `${site.name} | ${site.role} — ${site.crp}`;
 export const pageDescription =
   "Psicóloga Camile Silva (CRP-SC 26766). Um espaço de escuta, acolhimento e transformação. Psicoterapia online e presencial para adolescentes e adultos. Particular e convênios Unimed, SC Saúde e Elo.";
 
+// Endereço completo da foto (redes sociais e Google pedem o link inteiro).
+const portraitUrl = `${site.url}${images.portrait}`;
+
 const structuredData = {
   "@context": "https://schema.org",
   "@type": "Psychologist",
   name: `${site.name} — ${site.role}`,
   description: pageDescription,
-  image: images.portrait,
+  image: portraitUrl,
   identifier: site.crp,
   areaServed: "BR",
   ...(site.url ? { url: site.url } : {}),
@@ -41,7 +44,7 @@ export function renderHead() {
     ["property", "og:locale", "pt_BR"],
     ["property", "og:title", pageTitle],
     ["property", "og:description", pageDescription],
-    ["property", "og:image", images.portrait],
+    ["property", "og:image", portraitUrl],
     ["name", "twitter:card", "summary_large_image"],
   ];
   return [

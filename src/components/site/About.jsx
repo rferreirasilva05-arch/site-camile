@@ -18,7 +18,7 @@ export default function About() {
               <div className="mx-auto aspect-[3/4] w-[70%] max-w-[18rem] overflow-hidden rounded-[999px_999px_24px_24px] bg-linen lg:w-[80%] lg:max-w-none">
                 <Image
                   src={images.portrait}
-                  alt="Camile Silva, psicóloga, sorrindo em retrato de estúdio"
+                  alt="Retrato de Camile Silva, psicóloga, sorrindo"
                   className="h-full w-full"
                   fittingType="fit"
                 />
