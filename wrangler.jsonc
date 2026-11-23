@@ -1,0 +1,9 @@
+// Configuração para publicar no Cloudflare (Workers com arquivos estáticos).
+// O site é gerado por "npm run build" na pasta dist/ e publicado como está.
+{
+  "name": "site-camile",
+  "compatibility_date": "2025-09-01",
+  "assets": {
+    "directory": "./dist"
+  }
+}

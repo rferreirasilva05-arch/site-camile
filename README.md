@@ -15,14 +15,14 @@ atualização enviada ao GitHub.
 ## Publicar no Cloudflare Pages (uma vez só)
 
 1. Crie uma conta gratuita em https://dash.cloudflare.com/sign-up
-2. No painel: **Workers & Pages → Create → Pages → Connect to Git**.
-3. Autorize o GitHub e escolha o repositório do site.
-4. Configurações de build:
-   - **Framework preset:** None
+2. No painel: **Compute → Workers & Pages → Create application →
+   Continue with GitHub** e escolha o repositório do site.
+3. Configurações:
    - **Build command:** `npm run build`
-   - **Build output directory:** `dist`
-5. Clique em **Save and Deploy**. Em 1–2 minutos o site fica no ar num
-   endereço `....pages.dev`.
+   - **Deploy command:** `npx wrangler deploy`
+   (a configuração fica no arquivo `wrangler.jsonc`)
+4. Clique em **Deploy**. Em 1–2 minutos o site fica no ar num endereço
+   `....workers.dev`.
 
 ## Ligar o domínio próprio
 
