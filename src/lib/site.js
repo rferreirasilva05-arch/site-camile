@@ -8,7 +8,7 @@ export const site = {
     "Olá, Camile! Vim pelo seu site e gostaria de saber mais sobre a psicoterapia.",
   instagram: "https://www.instagram.com/psicologacamilesilva",
   // Endereço do site depois de publicado, ex.: "https://www.camilesilva.com.br"
-  url: "",
+  url: "https://psicologacamilesilva.com.br",
   email: "",
   // Endereço do consultório (atendimento presencial). Deixe vazio para não exibir.
   address: "",
